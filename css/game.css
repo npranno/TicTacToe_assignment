@@ -2,6 +2,8 @@ h1 {
     text-align: center;
     color: blueviolet;
     text-decoration: underline;
+    font-weight: 600;
+    text-shadow: 5px 5px 10px grey;
 }
 
 /* this container includes our table and our canvas */
@@ -18,7 +20,8 @@ table {
     /*this property collapses table borders into 1 border*/
     border-collapse: collapse;
     /*this hides outer borders on table */
-    border-style: hidden;
+    /*border-style: hidden;*/
+    box-shadow: 2px 2px 20px grey;
 }
 
 td {
